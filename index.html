@@ -236,38 +236,23 @@
       <!-- Resume Section End -->
 
 
-      <section id="portfolios" class="section-padding" style="min-height: 92vh;">
+      <section id="portfolios" class="section-padding" style="min-height: 50vh;">
         <!-- Container Starts -->
         <div class="container">
-          <h2 class="section-title wow flipInX text-center" data-wow-delay="0.4s">My Remarkable Works</h2>
+          <h1 class="section-title wow flipInX text-center" data-wow-delay="0.4s" style="text-decoration: underline; text-decoration-color: #00b4d9; margin-bottom: 100px;">My Remarkable Works</h1>
 
           <div class="row justify-content-center">
-            <div class="col-md-10">
-              <!-- Project Buttons -->
-              <div class="controls text-center mb-5 d-flex flex-wrap justify-content-center gap-3">
-                <button class="filter btn btn-common active-project" onclick="showProject('project1', this)">Safar</button>
-                <button class="filter btn btn-common" onclick="showProject('project2')">Temperature Based Fan Speed
-                  Control</button>
-                <button class="filter btn btn-common" onclick="showProject('project3')">Phishing Detection
-                  System</button>
-                <div style="margin-top: 20px;">
-                  <button class="filter btn btn-common" onclick="showProject('project4')">String Algorithms</button>
-                  <button class="filter btn btn-common" onclick="showProject('project5')">Smart Irrigation System</button>
-                </div>
-              </div>
-            </div>
-
             <!-- Project Descriptions -->
             <div id="portfolio" class="col-md-10 mx-auto wow fadeInDown text-center" data-wow-delay="0.4s">
               <div id="project1" class="project-detail" style="display: block;">
-                <h3 class="mb-3">Safar</h3>
-                <p class="line-text"><strong>About:</strong> Safar is a web-based travel platform designed to inspire domestic exploration across India. It showcases 
+                <h4 class="mb-3">Safar</h4>
+                <p class="line-text" style="font-size: 16px; line-height: 1.6;"><strong>About:</strong> Safar is a web-based travel platform designed to inspire domestic exploration across India. It showcases 
                   curated journeys that highlight the country's rich cultural heritage, diverse landscapes, and hidden gems. At Safar, our mission is to inspire
                    wanderlust and create meaningful connections through personalized travel experiences. We believe in responsible tourism, sustainability, and fostering
                     cultural appreciation.The platform features a clean, user-friendly interface built using modern web technologies. It includes interactive destination
                      pages, travel blogs, and visual storytelling to engage and inform travelers. Safar serves as a digital guide that encourages conscious exploration
                       and a deeper connection to the soul of India.</p>
-                <p class="line-text"><strong>Technology:</strong> HTML, CSS, JavaScript</p>
+                <p class="line-text" style="font-size: 16px; font-weight: 600;"><strong>Technology:</strong> HTML, CSS, JavaScript</p>
                 <br><br>
                 <a href="https://github.com/MadhumithraaTS/SAFAR" target="_blank"
                   class="project-link btn btn-common mt-3">
@@ -277,13 +262,13 @@
               </div>
 
               <div id="project2" class="project-detail" style="display: none;">
-                <h3 class="mb-3">Temperature Based Fan Speed Control</h3>
-                <p class="line-text"><strong>About:</strong> This Arduino-based temperature monitoring system reads analog data from a temperature sensor and adjusts fan
+                <h4 class="mb-3">Temperature Based Fan Speed Control</h4>
+                <p class="line-text" style="font-size: 16px; line-height: 1.6;"><strong>About:</strong> This Arduino-based temperature monitoring system reads analog data from a temperature sensor and adjusts fan
                    speed based on predefined thresholds. It dynamically allocates memory to store multiple temperature readings and utilizes bitfields within a union to 
                    control fan speed efficiently (low, medium, high). Real-time temperature data and fan status are logged over the serial monitor for transparency and 
                    debugging. The system manages hardware through digital pins and ensures clean memory deallocation after execution. Designed for simplicity and 
                    modularity, it showcases core concepts like dynamic memory, bit-level control, and sensor integration in embedded systems.</p>
-                <p class="line-text"><strong>Technology:</strong> C, Arduino</p>
+                <p class="line-text" style="font-size: 16px; font-weight: 600;"><strong>Technology:</strong> C, Arduino</p>
                 <br><br>
                 <a href="https://www.tinkercad.com/things/d3bbPWpjiOZ-c-project/editel?returnTo=%2Fthings%2Fd3bbPWpjiOZ-c-project&sharecode=c77IDsXkQksHDMziHAXBXfEhAORlcfaumIfNgQXOh1E" target="_blank"
                   class="project-link btn btn-common mt-3">
@@ -292,15 +277,15 @@
               </div>
 
               <div id="project3" class="project-detail" style="display: none;">
-                <h3 class="mb-3">Phishing Detection System</h3>
-                <p class="line-text"><strong>About:</strong>The Phishing Detection System is an advanced Python-based application designed to detect, categorize, and 
+                <h4 class="mb-3">Phishing Detection System</h4>
+                <p class="line-text" style="font-size: 16px; line-height: 1.6;"><strong>About:</strong>The Phishing Detection System is an advanced Python-based application designed to detect, categorize, and 
                   prioritize phishing threats using intelligent data structures and threat analysis techniques. It utilizes a Trie for efficient keyword and email 
                   matching, and a Graph to model and analyze relationships between URLs for suspicious patterns. Detected threats are categorized into types like
                    phishing email, spear phishing, vishing, and malware attachments using heuristic rules. A priority queue (max-heap) is used to assign severity levels
                     and retrieve threats in descending order of urgency. The system automatically generates threat reports with categorized entries and real-time logging
                      of suspicious links. With modular design and clear time complexity analysis, it demonstrates core concepts in security, data structures, and 
                      incident response automation.</p>
-                <p class="line-text"><strong>Technology:</strong> Python</p>
+                <p class="line-text" style="font-size: 16px; font-weight: 600;"><strong>Technology:</strong> Python</p>
                 <br><br>
                 <a href="https://github.com/MadhumithraaTS/Phishing-Detection-System" target="_blank"
                   class="project-link btn btn-common mt-3">
@@ -308,23 +293,24 @@
                 </a>
               </div>
               <div id="project4" class="project-detail" style="display: none;">
-                <h3 class="mb-3">String Algorithms</h3>
-                <p class="line-text"><strong>About:</strong> This case study explores and compares multiple string matching algorithms—Brute Force, Rabin-Karp, KMP, 
+                <h4 class="mb-3">String Algorithms</h4>
+                <p class="line-text" style="font-size: 16px; line-height: 1.6;"><strong>About:</strong> This case study explores and compares multiple string matching algorithms—Brute Force, Rabin-Karp, KMP, 
                   Boyer-Moore, Suffix Trie, and Aho-Corasick—by analyzing their logic, time complexity, and efficiency in various scenarios. Each algorithm is evaluated
                    based on its ability to optimize pattern searches using techniques like hashing, preprocessing arrays, suffix structures, and finite automata. 
                    Real-world applications such as plagiarism detection, DNA sequence analysis, text search in editors, and spam filtering demonstrate their practical 
                    relevance. A Java-based implementation of the Boyer-Moore algorithm is included to showcase fast pattern detection in text. The study also highlights
                    trade-offs between simplicity and speed, and emphasizes how the right choice of algorithm can significantly enhance performance in large-scale string 
                    processing tasks.</p>
-                <p class="line-text"><strong>Technology:</strong> Java</p>
+                <p class="line-text" style="font-size: 16px; font-weight: 600;"><strong>Technology:</strong> Java</p>
               </div>
               <div id="project5" class="project-detail" style="display: none;">
-                <h3 class="mb-3">Smart Irrigation System</h3>This project showcases a smart irrigation system using logic gates to automate watering based on 
+                <h4 class="mb-3">Smart Irrigation System</h4>
+                <p style="font-size: 16px; line-height: 1.6;">This project showcases a smart irrigation system using logic gates to automate watering based on
                 environmental conditions—soil moisture, sunlight, rainfall, and wind speed. A breadboard setup with switches and LEDs simulates sensor inputs and displays
                  irrigation status, using a logical expression to determine activation. The system promotes efficient water use in gardens by activating irrigation only
                  when needed. Though built without sensors or microcontrollers, it demonstrates how hardware logic can support sustainability. Future enhancements 
                  include sensor integration, mobile control, and weather-based automation.</p>
-                <p class="line-text"><strong>Technology:</strong> Tinkercad</p>
+                <p class="line-text" style="font-size: 16px; font-weight: 600;"><strong>Technology:</strong> Tinkercad</p>
                 <br><br>
                 <a href="https://www.tinkercad.com/things/0n1kzzsZVKt-ece-home-assingment/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=0n1fCdc8Mp98lGFxtwZu-Zhi5zQQZCo64nm1aHncOMA" target="_blank"
                   class="project-link btn btn-common mt-3">
@@ -337,29 +323,31 @@
      
 
       <script>
-        function showProject(projectId, btn) {
-         
-          const projects = document.querySelectorAll('.project-detail');
-          projects.forEach(project => project.style.display = 'none');
-
+        let currentProject = 0;
+        const projects = ['project1', 'project2', 'project3', 'project4', 'project5'];
+        
+        function showProject(projectId) {
+          // Hide all projects
+          const allProjects = document.querySelectorAll('.project-detail');
+          allProjects.forEach(project => project.style.display = 'none');
+          
+          // Show the specified project
           document.getElementById(projectId).style.display = 'block';
-
-          const buttons = document.querySelectorAll('.filter');
-          buttons.forEach(button => button.classList.remove('active-project'));
-
-          if (btn) {
-            btn.classList.add('active-project');
-          }
         }
-
+        
+        function cycleProjects() {
+          showProject(projects[currentProject]);
+          currentProject = (currentProject + 1) % projects.length;
+        }
+        
+        // Start the automatic cycling when the page loads
         window.onload = function () {
-          const defaultBtn = document.querySelector("button[onclick*='project1']");
-          showProject('project1', defaultBtn);
+          showProject('project1'); // Show first project initially
+          setInterval(cycleProjects, 5000); // Change every 5 seconds
         };
       </script>
 
 </section>
-      <br><br>
       <section id="contact" class="contact section">
         <div class="container section-title" data-aos="fade-up">
           <h2>Contact</h2>
